@@ -1,8 +1,7 @@
 
 .page.theme-light {
     --normal-wght: 400;
-
-    --bold-wght: 700; 
+    --bold-wght: 700;
     --bg-color:  #FFF;
     --accent-color: #000;
     --bg-image: url(../svg/pattern-light.svg);
@@ -17,13 +16,11 @@
     --heart-contour: #00CC14;
   }
   @media (prefers-color-scheme: dark) {
-    :root 
-    {
+    :root {
       --normal-wght: 465;
-      
       --bold-wght: 785;
       --bg-color: #000;
-      --accent-color: #00CC14;   
+      --accent-color: #00CC14;
       --bg-image: url(../svg/pattern-dark.svg);
       --heart-contour: #00CC14;
     }
