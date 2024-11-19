@@ -1,6 +1,7 @@
 
 .page.theme-light {
     --normal-wght: 400;
+
     --bold-wght: 700; 
     --bg-color:  #FFF;
     --accent-color: #000;
@@ -16,8 +17,10 @@
     --heart-contour: #00CC14;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root 
+    {
       --normal-wght: 465;
+      
       --bold-wght: 785;
       --bg-color: #000;
       --accent-color: #00CC14;   
